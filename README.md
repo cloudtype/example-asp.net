@@ -1,7 +1,7 @@
-# example - ASP.net
+# example - ASP.NET Core
 ## Prerequisite
 
-[Download .NET & Install](https://dotnet.microsoft.com/download)
+[Install .NET Core SDK](https://dotnet.microsoft.com/download)
 
 ## Run
 
@@ -10,17 +10,4 @@ $ dotnet run
 ```
 
 http://localhost:5000
-
-## Build
-
-```sh
-$ dotnet build
-```
-
-## Build Image & Run
-
-```sh
-$ docker build -t aspnetapp .
-$ docker run -d -p 5000:80 --name aspnetapp aspnetapp
-```
 
