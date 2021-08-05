@@ -1,43 +1,37 @@
-### Node ###
-# Logs
-logs
-*.log
-npm-debug.log*
+*.swp
+*.*~
+project.lock.json
 .DS_Store
+*.pyc
+nupkg/
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# Visual Studio Code
+.vscode
 
-# Dependency directories
-node_modules
-jspm_packages
+# Rider
+.idea
 
-# Optional npm cache directory
-.npm
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Optional eslint cache
-.eslintcache
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
 
-# Optional REPL history
-.node_repl_history
-
-
-### Emacs ###
-*~
-\#*\#
-\.#*
-.projectile
-
-
-
-assets
-buildpath.js
-.test/
-lib/
-
-bin/
-obj/
-out/
+# Visual Studio 2015
+.vs/
